@@ -1,0 +1,394 @@
+{
+    "comment": "https://scotch.io", 
+    "settings": [
+        {
+            "settings": {
+                "invisibles": "#434D5B", 
+                "selection": "#434D5B", 
+                "caret": "#ffffff", 
+                "lineHighlight": "#343c48", 
+                "background": "#272d35", 
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
+            "settings": {
+                "fontStyle": "italic", 
+                "foreground": "#535e6f"
+            }, 
+            "scope": "comment, punctuation.definition.comment, string.quoted.double.block.python", 
+            "name": "Comment"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#CED1CF"
+            }, 
+            "scope": "keyword.operator.class, source.php.embedded.line, meta.method punctuation.definition, meta.method punctuation.separator", 
+            "name": "Foreground"
+        }, 
+        {
+            "settings": {
+                "foreground": "#fffbd4"
+            }, 
+            "scope": "variable, support.other.variable, variable.parameter, string.other.link, string.regexp, declaration.tag, meta.expression.body.function, variable.parameter, string.unquoted.label", 
+            "name": "Variable, String Link, Regular Expression, Tag Name"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#e5d4ff"
+            }, 
+            "scope": "constant.numeric, constant.language, constant.other, support.constant, variable.other.constant, keyword.other.unit, meta.property-value, punctuation.section.embedded", 
+            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#fefffd"
+            }, 
+            "scope": "entity.name.class, entity.name.type.class, entity.name.type.instance, entity.name.instance, meta.instance.constructor, meta.property.class, variable.other.class, class.name, support.type, support.class, storage.type", 
+            "name": "Class, Support"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#bdc1c7"
+            }, 
+            "scope": "string, constant.other.symbol, entity.other.inherited-class", 
+            "name": "String, Symbols, Inherited Class, Markup Heading"
+        }, 
+        {
+            "settings": {
+                "foreground": "#ffb5a0"
+            }, 
+            "scope": "keyword.operator, keyword.control, entity.other.attribute-name, constant.other.color, constant.character", 
+            "name": "Operator, Misc"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#9ccdff"
+            }, 
+            "scope": "entity.name.function, support.function, keyword.other.special-method, entity.name.method, meta.accessor, meta.block-level, function.name", 
+            "name": "Function, Special Method, Block Level"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#ff8a8a"
+            }, 
+            "scope": "entity.name.tag.css, meta.tag, entity.name.tag", 
+            "name": "Keyword, Storage"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "italic", 
+                "foreground": "#ff8a8a"
+            }, 
+            "scope": "keyword, storage, storage.type", 
+            "name": "Keyword, Storage"
+        }, 
+        {
+            "settings": {
+                "foreground": "#CED1CF"
+            }, 
+            "scope": "meta.method.body.java, meta.method.return-type.java", 
+            "name": "Java Methods"
+        }, 
+        {
+            "settings": {
+                "foreground": "#bdc1c7"
+            }, 
+            "scope": "punctuation.definition.string.begin.java, punctuation.definition.string.end.java", 
+            "name": "Java Strings"
+        }, 
+        {
+            "settings": {
+                "foreground": "#fefffd"
+            }, 
+            "scope": "storage.type.java", 
+            "name": "Java Classes, Storage Types"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#9ccdff"
+            }, 
+            "scope": "meta.expression.body.function", 
+            "name": "TypeScript Functions"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#fefffd"
+            }, 
+            "scope": "meta.expression.body.class.ts, meta.class.ts", 
+            "name": "TypeScript Class"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#fffbd4"
+            }, 
+            "scope": "meta.toc-list.class.member.ts", 
+            "name": "TypeScript Variables"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#bdc1c7"
+            }, 
+            "scope": "punctuation.definition.string.ts", 
+            "name": "TypeScript Strings"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#ffffff"
+            }, 
+            "scope": "meta.brace.curly.ts, meta.brace.square.ts, meta.brace.round.ts, meta.delimiter.ts, punctuation.definition.parameters.ts, punctuation.terminator.statement.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, meta.delimiter.method.period.ts, meta.delimiter.object.comma.ts, keyword.operator.ts", 
+            "name": "TypeScript Misc., Braces, Periods, Delimiter etc."
+        }, 
+        {
+            "settings": {
+                "foreground": "#fffbd4"
+            }, 
+            "scope": "string.quoted.double.json, meta.structure.dictionary.json string.quoted.double.json, meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json, meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json, meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json, meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json, meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json, meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json, meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json", 
+            "name": "JSON Key"
+        }, 
+        {
+            "settings": {
+                "foreground": "#bdc1c7"
+            }, 
+            "scope": "meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.value.json meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json string.quoted.double.json", 
+            "name": "JSON String"
+        }, 
+        {
+            "settings": {
+                "foreground": "#bdc1c7"
+            }, 
+            "scope": "meta.parameter.optional punctuation.definition.string.begin, meta.parameter.optional punctuation.definition.string.end", 
+            "name": "JavaScript Strings"
+        }, 
+        {
+            "settings": {
+                "foreground": "#fefffd"
+            }, 
+            "scope": "markup.heading.markdown, markup.heading", 
+            "name": "Markdown Titles"
+        }, 
+        {
+            "settings": {
+                "foreground": "#ffffff"
+            }, 
+            "scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown", 
+            "name": "Markdown lists"
+        }, 
+        {
+            "settings": {
+                "foreground": "#FFFFFF"
+            }, 
+            "scope": "markup.bold.markdown, markup.italic.markdown", 
+            "name": "Markdown bold/italic"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "italic"
+            }, 
+            "scope": "markup.italic.markdown", 
+            "name": "Markdown italic"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "bold"
+            }, 
+            "scope": "markup.bold.markdown", 
+            "name": "Markdown bold"
+        }, 
+        {
+            "settings": {
+                "foreground": "#fffbd4"
+            }, 
+            "scope": "markup.raw.inline.markdown, markup.raw.block.markdown", 
+            "name": "Markdown Raw/Pre"
+        }, 
+        {
+            "settings": {
+                "foreground": "#9ccdff"
+            }, 
+            "scope": "string.other.link.title.markdown, string.other.link.description.title.markdown", 
+            "name": "Markdown String Link"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "italic", 
+                "foreground": "#e5d4ff"
+            }, 
+            "scope": "markup.underline.link.markdown, markup.underline.link.image.markdown, meta.image.inline.markdown", 
+            "name": "Markdown link"
+        }, 
+        {
+            "settings": {
+                "foreground": "#bdc1c7"
+            }, 
+            "scope": "markup.quote.markdown", 
+            "name": "Markdown quote"
+        }, 
+        {
+            "settings": {
+                "foreground": "#e5d4ffA0"
+            }, 
+            "scope": "constant.numeric.line-number.find-in-files - match"
+        }, 
+        {
+            "settings": {
+                "foreground": "#fefffd"
+            }, 
+            "scope": "entity.name.filename.find-in-files"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "background": "#ff7e7e", 
+                "foreground": "#ffffff"
+            }, 
+            "scope": "invalid", 
+            "name": "Invalid"
+        }, 
+        {
+            "settings": {
+                "foreground": "#ffb5a0"
+            }, 
+            "scope": "meta.separator", 
+            "name": "Separator"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "", 
+                "background": "#CED2CF", 
+                "foreground": ""
+            }, 
+            "scope": "invalid.deprecated", 
+            "name": "Deprecated"
+        }, 
+        {
+            "settings": {
+                "foreground": "#ffffff"
+            }, 
+            "scope": "markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file", 
+            "name": "Diff foreground"
+        }, 
+        {
+            "settings": {
+                "foreground": "#A6E22E"
+            }, 
+            "scope": "markup.inserted.diff, meta.diff.header.to-file", 
+            "name": "Diff insertion"
+        }, 
+        {
+            "settings": {
+                "foreground": "#ff7e7e"
+            }, 
+            "scope": "markup.deleted.diff, meta.diff.header.from-file", 
+            "name": "Diff deletion"
+        }, 
+        {
+            "settings": {
+                "background": "#4271ae", 
+                "foreground": "#ffffff"
+            }, 
+            "scope": "meta.diff.header.from-file, meta.diff.header.to-file", 
+            "name": "Diff header"
+        }, 
+        {
+            "settings": {
+                "fontStyle": "italic", 
+                "foreground": "#ffb5a0"
+            }, 
+            "scope": "meta.diff.range", 
+            "name": "Diff range"
+        }, 
+        {
+            "settings": {
+                "foreground": "#F92672"
+            }, 
+            "scope": "markup.deleted", 
+            "name": "diff.deleted"
+        }, 
+        {
+            "settings": {
+                "foreground": "#A6E22E"
+            }, 
+            "scope": "markup.inserted", 
+            "name": "diff.inserted"
+        }, 
+        {
+            "settings": {
+                "foreground": "#967EFB"
+            }, 
+            "scope": "markup.changed", 
+            "name": "diff.changed"
+        }, 
+        {
+            "settings": {
+                "foreground": "#ff7e7e"
+            }, 
+            "scope": "sublimelinter.mark.error", 
+            "name": "SublimeLinter Error"
+        }, 
+        {
+            "settings": {
+                "foreground": "#ffffff"
+            }, 
+            "scope": "sublimelinter.gutter-mark", 
+            "name": "SublimeLinter Gutter Mark"
+        }, 
+        {
+            "settings": {
+                "foreground": "#FACB68"
+            }, 
+            "scope": "sublimelinter.mark.warning", 
+            "name": "SublimeLinter Warning"
+        }
+    ],
+        "rules":
+    [
+        {
+            "name": "C++ recognizeble",
+            "scope": "keyword.control.",
+            "foreground": "#8487EC",
+        },
+        {
+            "name": "C++/C math",
+            "scope": "support.function.",
+            "foreground": "#B3F990",
+            "font_style": "italic"
+        },
+        {
+            "name": "C functions",
+            "scope": "entity.name.function.",
+            "foreground": "#90F38B",
+            "font_style": "italic"
+        },
+        {
+            "name": "C f name",
+            "scope": "variable.function.",
+            "foreground": "#7A8FA9",
+        },
+        {
+            "name": "C f2",
+            "scope": "meta.function-call.",
+            "foreground": "#8AE08C",
+        },
+        {
+            "name": "C const",
+            "scope": "string",
+            "foreground": "#748EAC",
+        }
+    ],
+    "name": "10% Too Dull for My Tastes", 
+    "semanticClass": "theme.dark.10PercentTooDullForMyTastes", 
+    "uuid": "N96993EB-1A60-4617-92F3-D24D4F13DB69", 
+    "colorSpaceName": "sRGB"
+}
