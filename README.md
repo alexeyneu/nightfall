@@ -1,7 +1,7 @@
 
 # Announcing Nightfall color scheme  
 
-![](https://cdn.scotch.io/2/6s5lAn77RhGRWokqnMO8_vue.png)
+![](https://raw.githubusercontent.com/alexeyneu/BlockZero/master/p.jpg)
 
 
   
